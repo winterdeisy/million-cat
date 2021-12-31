@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Do+Hyeon&family=Island+Moments&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: rosybrown;
+        }
+        .header {
+
+        }
+        .scene {
+            
+            text-align: center;
+            height: 100vh;
+            font-family: 'Do Hyeon', sans-serif;
+            background-image: url('cat.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .scene h1 {
+            display: inline-block;
+            font-weight: 200;
+            position: relative;
+            top: 20%;
+            animation-name: slide;
+            animation-duration: 3s;
+            border: 1px solid white;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+        }
+        @keyframes slide {
+            from {
+                margin-top: 10%;
+            }
+        }
+
+        #footer {
+            height: 30vh;
+            text-align: center;
+            font-size: 2rem;
+            background-color: black;
+        }
+        
+        #footer li {
+            display: inline-block;
+            list-style: none;
+            margin-top: 20px;
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        #footer a {
+            position: relative;
+            border-radius: 20px;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+        }
+        #footer li:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        #footer li:active {
+            border: 1px solid white;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <input type="button" value="english" onclick="
+        // document.querySelector('h1').style.display='none';
+        ">
+    </header>
+
+    <section id="main">
+    <div class="scene one">
+        <h1>
+        백만 년이나 죽지 않은 고양이가 있습니다.<br>
+        백만 번이나 죽고 백만 번이나 살았던 것이죠.<br>
+        정말 멋진 얼룩 고양이였습니다.<br>
+        </h1>
+    </div>
+    <div class="scene two">
+        <h1>
+        백만명의 사람이 그 고양이를 귀여워했고,<br>
+        백만 명의 사람이 그 고양이가 죽었을 때 울었습니다.<br>
+    </h1>
+    </div>
+    <div class="scene three">
+        <h1>
+        고양이는 단 한번도 울지 않았습니다.<br>
+    </h1>
+    </div>
+</section>
+
+    <footer id="footer">
+        <li><a href="index.html">BEFORE</a></li>
+        <li><a href="2.html">NEXT</a></li>
+    </footer>
+</body>
+</html>

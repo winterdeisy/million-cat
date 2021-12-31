@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Do+Hyeon&family=Island+Moments&family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
     <style>
         body {
@@ -11,6 +14,8 @@
             background-color: black;
             color: white;
             width: 100%;
+            font-family: 'Do Hyeon', sans-serif;
+
         }
         .header {
             height: 100px;
@@ -20,6 +25,8 @@
             display: inline-block;
             animation-name: slide;
             animation-duration: 3s;
+            font-size: 3rem;
+            font-weight: 200;
         }
         @keyframes slide {
             from {
@@ -36,9 +43,14 @@
             display: inline-block;
             animation-name: slide;
             animation-duration: 2s;
+            font-weight: 300;
+            font-size: 1.5rem;
         }
         .footer {
             height: 100px;
+            display: inline-block;
+            border-radius: 20px;
+            margin: 0;
         }
         .footer a{
             border-radius: 20px;
@@ -47,9 +59,10 @@
             padding: 30px;
             background-color: rgba(255, 255, 255, 0.5);
             color: white;
+            /* box-shadow: 3px 5px 5px white; */
         }
-        .footer:active {
-            transform: translateY(5px);
+        .footer a:hover {
+            border: 3px solid white;
         }
     </style>
 </head>
@@ -63,14 +76,14 @@
     <section class="main">
         <!-- text -->
         <h3>이 고양이는 백만 번이나 살고
-        백만 번이나 죽었어요.</h3>
+        백만 번이나 죽었어요.</h3><br>
         <h3>죽는 것 따위는 아무렇지 않았던
         멋진 얼룩무늬 고양이 이야기</h3>
 
     </section>
     <footer class="footer">
         <!-- button  -->
-        <a href="1.html">들어가기</a>
+        <a href="1.html">ENTER</a>
     </footer>
     </div>
 </body>
