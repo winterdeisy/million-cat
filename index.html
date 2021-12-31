@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: black;
+            color: white;
+            width: 100%;
+        }
+        .header {
+            height: 100px;
+        }
+        .header h1 {
+            transform: translateY(40px);
+            display: inline-block;
+            animation-name: slide;
+            animation-duration: 3s;
+        }
+        @keyframes slide {
+            from {
+                margin-top: 5%;
+                color: rgba(255, 255, 255, 0.5);
+            }
+        }
+
+        .main {
+            height: 400px;
+        }
+        .main h3 {
+            transform: translateY(100px);
+            display: inline-block;
+            animation-name: slide;
+            animation-duration: 2s;
+        }
+        .footer {
+            height: 100px;
+        }
+        .footer a{
+            border-radius: 20px;
+            border: 1px solid white;
+            text-decoration: none;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.5);
+            color: white;
+        }
+        .footer:active {
+            transform: translateY(5px);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+    <header class="header">
+        <!-- title -->
+        <h1>100만 번 산 고양이</h1>
+
+    </header>
+    <section class="main">
+        <!-- text -->
+        <h3>이 고양이는 백만 번이나 살고
+        백만 번이나 죽었어요.</h3>
+        <h3>죽는 것 따위는 아무렇지 않았던
+        멋진 얼룩무늬 고양이 이야기</h3>
+
+    </section>
+    <footer class="footer">
+        <!-- button  -->
+        <a href="1.html">들어가기</a>
+    </footer>
+    </div>
+</body>
+</html>
